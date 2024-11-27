@@ -85,7 +85,7 @@ def plot_comparison_percentiles(percentiles_A, percentiles_B, asset_A_2_5_percen
     st.pyplot(fig)
 
 # Streamlit App
-st.title("MC Simulation: Asset A vs Asset B")
+st.title("Monte Carlo Simulation")
 
 # User inputs for volatility
 vol_A = st.slider("Volatility for Asset A", 0.1, 1.0, 0.2, 0.01)
